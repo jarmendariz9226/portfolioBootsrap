@@ -1,0 +1,39 @@
+/*
+// Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  /*section styles ---careful*/
+  .about-section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .image{
+    height: 190px;
+  }
+  .image img{
+    height: 180px;
+    width: 50%;
+    border-radius: 50%;
+      transition: .8s;
+  }
+  .social-icons{
+    text-align: center;
+    margin-top: 20px;
+  }
+  .about-info{
+    text-align: center;
+  }
+  .about-achievements{
+    text-align: center;
+  }
+}
+
+@media (min-width: 568px) and (max-width:768){
+  .intro-section{
+    background: red;
+  }
+  .image img{
+    width: 35%;
+    transition: .8s;
+  }
+}
